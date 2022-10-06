@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="comprando en Bon Bonite" skipped="0" tests="1" time="14.71" timestamp="2022-10-06 02:59:31"><testcase name="Compras"><error message="Cannot invoke &quot;Object.getClass()&quot; because &quot;object&quot; is null" type="java.lang.NullPointerException">Cannot invoke "Object.getClass()" because "object" is null</error><system-err>Cannot invoke "Object.getClass()" because "object" is null&#13;
+com.Bonbonite.task.InserarCredenciales.con(InserarCredenciales.java:30)&#13;
+com.Bonbonite.steepsdefinitions.ComprasSteepDefinitions.ingresoY(ComprasSteepDefinitions.java:37)&#13;
+✽.ingreso "1152696923" y "Agosto2022*"(file:///C:/Users/willr/IdeaProjects/TestQVision/src/test/resources/compras.feature:7)&#13;
+</system-err></testcase></testsuite>

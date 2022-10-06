@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.Bonbonite.runners.ComprasRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="LAPTOP-S8D4UU32" time="0.0">
+  <properties/>
+  <system-out><![CDATA[
+?[31mFailed scenarios:?[0m
+?[31mfile:///C:/Users/willr/IdeaProjects/TestQVision/src/test/resources/compras.feature:20?[0m# compras
+
+1 Scenarios (?[31m1 failed?[0m)
+11 Steps (?[31m1 failed?[0m, ?[36m8 skipped?[0m, ?[32m2 passed?[0m)
+0m15,108s
+
+
+java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "object" is null
+	at net.serenitybdd.core.lifecycle.LifecycleRegister.lambda$register$0(LifecycleRegister.java:28)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.HashMap$KeySpliterator.tryAdvance(HashMap.java:1728)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at net.serenitybdd.core.lifecycle.LifecycleRegister.register(LifecycleRegister.java:29)
+	at net.thucydides.core.steps.StepFactory.instantiateUniqueStepLibraryFor(StepFactory.java:221)
+	at net.thucydides.core.steps.StepFactory.getUniqueStepLibraryFor(StepFactory.java:153)
+	at net.serenitybdd.screenplay.Tasks.instrumented(Tasks.java:12)
+	at com.Bonbonite.task.InserarCredenciales.con(InserarCredenciales.java:30)
+	at com.Bonbonite.steepsdefinitions.ComprasSteepDefinitions.ingresoY(ComprasSteepDefinitions.java:37)
+	at ?.ingreso "1152696923" y "Agosto2022*"(file:///C:/Users/willr/IdeaProjects/TestQVision/src/test/resources/compras.feature:7)
+
+
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>
